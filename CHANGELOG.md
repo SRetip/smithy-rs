@@ -1,4 +1,10 @@
 <!-- Do not manually edit this file. Use the `changelogger` tool. -->
+June 26th, 2024
+===============
+**New this release:**
+- :bug: (server, [smithy-rs#3643](https://github.com/smithy-lang/smithy-rs/issues/3643)) A feature, `aws-lambda`, has been added to generated SDKs to re-export types required for Lambda deployment.
+
+
 June 19th, 2024
 ===============
 **Breaking Changes:**
