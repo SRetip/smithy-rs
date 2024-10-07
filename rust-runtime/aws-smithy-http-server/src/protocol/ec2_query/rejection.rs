@@ -52,7 +52,7 @@ impl From<()> for RequestRejection {
     }
 }
 
-impl From<SerializationError> for RequestRejection{
+impl From<::aws_smithy_types::error::operation::SerializationError> for RequestRejection{
     fn from(_value: SerializationError) -> Self {
         Self::NotAcceptable
     }
